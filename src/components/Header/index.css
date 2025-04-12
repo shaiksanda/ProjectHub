@@ -1,0 +1,40 @@
+
+.social-network-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.social-network-img:hover{
+    transform: scale(1.08);
+}
+
+.website-logo{
+    font-size: 24px;
+    font-weight: 700;
+}
+.nav-header{
+    
+    border-radius: 10px;
+
+    position: sticky;
+    top:0;
+    width: 100%;
+    
+    
+}
+
+
+.nav-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap:15px
+}
